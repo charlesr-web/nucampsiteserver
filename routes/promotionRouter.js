@@ -43,9 +43,9 @@ promotionRouter
     );
   })
   .put((req, res) => {
-    res.write(`Updating the campsite promotion: ${req.params.promotionId}\n`);
+    res.write(`Updating the promotion: ${req.params.promotionId}\n`);
     res.end(
-      `Will update the campsite promotion: ${req.body.name} with description: ${req.body.description}`
+      `Will update the promotion: ${req.body.name} with description: ${req.body.description}`
     );
   })
   .delete((req, res) => {
