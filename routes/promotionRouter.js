@@ -13,7 +13,7 @@ promotionRouter
   })
   .post((req, res) => {
     res.end(
-      `Will add the campsite promotion: ${req.body.name} with description: ${req.body.description}`
+      `Will add the promotion: ${req.body.name} with description: ${req.body.description}`
     );
   })
   .put((req, res) => {
